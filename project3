@@ -1,7 +1,8 @@
-x = input()
-def fact (x):
-    fact=1
-for x in range (1,x+1):
-    return fact
-    print (fact)
+def factorial (m):
+    fact =1
+    if i in range (1,n+1):
+        fact = fact +1
+     return fact 
+print (factorial (7))
+
     
