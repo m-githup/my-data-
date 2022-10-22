@@ -1,0 +1,11 @@
+class cars:
+    def __init__(self,modle,color,speed):
+             self.modle=modle
+             self.color=color
+             self.speed=speed
+             print(self.modle,self.color,self.speed)
+obj1=cars("BMW","black",255)
+print(obj1.modle)
+print(obj1.color)
+print(obj1.speed)
+          
