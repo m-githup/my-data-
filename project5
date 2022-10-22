@@ -4,7 +4,7 @@ class person:
              self.age=age
              self.tall=tall
       def walking(self):
-          print(self.name,self.age,self.tall)
+          print(self.name,"is walking")
 obj1=person("mariam",18,155)
 print(obj1.name)
 print(obj1.age)
