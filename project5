@@ -1,0 +1,13 @@
+class person:
+      def __init__(self,name,age,tall):
+             self.name=name
+             self.age=age
+             self.tall=tall
+      def walking(self):
+          print(self.name,self.age,self.tall)
+obj1=person("mariam",18,155)
+print(obj1.name)
+print(obj1.age)
+print(obj1.tall)
+obj1.walking()
+    
